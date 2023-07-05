@@ -1,5 +1,5 @@
 import { Inject, Injectable, NotFoundException } from '@nestjs/common';
-import { DATABASE_PROVIDER } from 'src/app.constant';
+import { DATABASE_PROVIDER } from '../app.constant';
 import { Repository } from 'typeorm';
 import { Device } from './device.entity';
 import { User } from 'src/user/user.entity';
